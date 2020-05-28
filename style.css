@@ -2,13 +2,13 @@ body{
     margin: 0;
     padding: 0;
 }
-div{
+.burger_menu{
     height: 250px;
     width: 250px;
     background: #000;
     position: absolute;
-    left: 350px;
-    top: 250px;
+    left: 750px;
+    top: 100px;
 }
 span{
     width: 50%;
@@ -33,4 +33,24 @@ span:nth-child(3){
 .tr_active{
     transform: rotate(-45deg) translateY(-37px) translateX(40px);
     
+}
+.sidebar{
+    min-width: 180px;
+    background: #555;
+    position: absolute;
+    height: 100%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    height: 75px;   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+nav a:hover{
+    background-color: #000;
 }
