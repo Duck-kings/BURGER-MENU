@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 250px;
+    width: 250px;
+    background: #000;
+    position: absolute;
+    left: 350px;
+    top: 250px;
+}
+span{
+    width: 50%;
+    height: 9px;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    transition: 0.5s;
+}
+span:nth-child(2){
+    top: 120px;
+    
+}
+span:nth-child(3){
+    top: 170px;
+}
+.frs_active{
+    transform: rotate(45deg);
+    top: 115px;
+}
+.tr_active{
+    transform: rotate(-45deg) translateY(-37px) translateX(40px);
+    
+}
